@@ -1,14 +1,14 @@
 const CurrentPositions = {
-  "red titan" : "8e",
-  "blue titan" : "1d",
-  "red richo" : "7g",
-  "blue richo" : "2b",
-  "red semi richo" : "8c",
-  "blue semi richo" : "1f",
-  "red tank" : "7a",
-  "blue tank" : "2h",
-  "red canon" : "8h",
-  "blue canon" : "1a",
+  "red_titan" : "8e",
+  "blue_titan" : "1d",
+  "red_richo" : "7g",
+  "blue_richo" : "2b",
+  "red_semi_richo" : "8c",
+  "blue_semi_richo" : "1f",
+  "red_tank" : "7a",
+  "blue_tank" : "2h",
+  "red_canon" : "8h",
+  "blue_canon" : "1a",
 }
 
 function updatePosition(piece,new_pos){

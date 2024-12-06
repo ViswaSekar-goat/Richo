@@ -18,8 +18,9 @@ function renderRedTitan(id){
   const squarePiece = document.getElementById(id);
   const createPiece = document.createElement("img");
   createPiece.src = "richo resources/titan red.png";
-  createPiece.id = "red titan";
+  createPiece.id = "red_titan";
   createPiece.classList.add("piece");
+  
   squarePiece.appendChild(createPiece);
 }
 
@@ -28,7 +29,7 @@ function renderBlueTitan(id){
   const createPiece = document.createElement("img");
   createPiece.src = "richo resources/titan blue.png";
   createPiece.classList.add("piece");
-  createPiece.id = "blue titan";
+  createPiece.id = "blue_titan";
   squarePiece.appendChild(createPiece);
 }
 
@@ -37,8 +38,12 @@ function renderRedCanon(id){
   const createPiece = document.createElement("img");
   createPiece.src = "richo resources/canon red.png";
   createPiece.classList.add("piece");
-  createPiece.id = "red canon";
+  createPiece.id = "red_canon";
+  // const createBullet = document.createElement("div");
+  // createBullet.classList.add("bullet");
+  // createBullet.id = "bullet";
   squarePiece.appendChild(createPiece);
+  // squarePiece.appendChild(createBullet);
 }
 
 function renderBlueCanon(id){
@@ -47,7 +52,7 @@ function renderBlueCanon(id){
   createPiece.src = "richo resources/canon blue.png";
   createPiece.classList.add("piece");
   createPiece.classList.add("blue");
-  createPiece.id = "blue canon";
+  createPiece.id = "blue_canon";
   squarePiece.appendChild(createPiece);
 }
 
@@ -56,7 +61,7 @@ function renderRedRicho(id){
   const createPiece = document.createElement("img");
   createPiece.src = "richo resources/richo red.png";
   createPiece.classList.add("piece");
-  createPiece.id = "red richo";
+  createPiece.id = "red_richo";
   squarePiece.appendChild(createPiece);
 }
 
@@ -66,7 +71,7 @@ function renderBlueRicho(id){
   createPiece.src = "richo resources/richo blue.png";
   createPiece.classList.add("piece");
   createPiece.classList.add("blue");
-  createPiece.id = "blue richo";
+  createPiece.id = "blue_richo";
   squarePiece.appendChild(createPiece);
 }
 
@@ -75,7 +80,7 @@ function renderRedSemiRicho(id){
   const createPiece = document.createElement("img");
   createPiece.src = "richo resources/semi richo red.png";
   createPiece.classList.add("piece");
-  createPiece.id = "red semi richo";
+  createPiece.id = "red_semi_richo";
   squarePiece.appendChild(createPiece);
 }
 
@@ -85,7 +90,7 @@ function renderBlueSemiRicho(id){
   createPiece.src = "richo resources/semi richo blue.png";
   createPiece.classList.add("piece");
   createPiece.classList.add("blue");
-  createPiece.id = "blue semi richo";
+  createPiece.id = "blue_semi_richo";
   squarePiece.appendChild(createPiece);
 }
 
@@ -94,7 +99,7 @@ function renderRedTank(id){
   const createPiece = document.createElement("img");
   createPiece.src = "richo resources/tank red.png";
   createPiece.classList.add("piece");
-  createPiece.id = "red tank";
+  createPiece.id = "red_tank";
   squarePiece.appendChild(createPiece);
 }
 
@@ -103,7 +108,7 @@ function renderBlueTank(id){
   const createPiece = document.createElement("img");
   createPiece.src = "richo resources/tank blue.png";
   createPiece.classList.add("piece");
-  createPiece.id = "blue tank";
+  createPiece.id = "blue_tank";
   squarePiece.appendChild(createPiece);
 }
 
