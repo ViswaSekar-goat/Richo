@@ -1,0 +1,41 @@
+body{
+  height: 100vh;
+  width: 100%;
+}
+.container{
+  border-radius: 5px;
+  overflow: hidden;
+  height: 700px;
+  width: 700px;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template: repeat(8,1fr)/repeat(8,1fr);
+  margin: 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.square{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px rgb(210, 209, 209) solid;
+  height: 100%;
+  width: 100%;
+}
+
+.piece{
+  width: 90%;
+}
+
+.blue{
+  transform: rotate(180deg);
+}
+
+.highlight{
+  /* background-color: #c2b9c2 ; */
+  background-color: #c3c1c3 ;
+}
+
+.possiblePiece{
+  background-color:rgb(244, 187, 46);
+}
